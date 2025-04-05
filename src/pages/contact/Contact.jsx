@@ -3,7 +3,7 @@ import FormInput from '../../components/form-input/FormInput';
 import Button from '../../components/button/Button';
 import Banner from '../../components/banner/Banner';
 import './styles.css';
-
+import contactBg from '/images/contact-us-bg.png';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -34,7 +34,9 @@ const Contact = () => {
     
     <section id="contact" className="contact-us-section">
       <div className="row d-flex">
-        <div className="col car-col"></div>
+        <div   style={{
+    backgroundImage: `url(${contactBg})`,
+  }} className="col car-col"></div>
 
         <div className="form-col">
           <img className="vector-form" src="./images/vector-form.png" alt="" />
