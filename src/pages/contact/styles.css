@@ -3,3 +3,8 @@
 .contact-page .banner-section .container .col h1 {max-width: none;}
 
 .contact-page .banner-section .container .col p.body {max-width: none;}
+
+@media(max-width:992px){
+ .car-col {display: none}
+  
+}
