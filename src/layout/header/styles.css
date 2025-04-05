@@ -1,0 +1,34 @@
+.mobile {
+    display: none;
+  }
+  
+  .desktop {
+    display: flex;
+  }
+  
+  @media (max-width: 992px) {
+    .mobile {
+      display: block;
+    }
+  
+    .desktop {
+      display: none;
+    }
+  
+    .nav-col.mobile ul {
+      flex-direction: column;
+      display: none;
+      margin-top: 1rem;
+    }
+  
+    .header-section.open .nav-col.mobile ul {
+      display: flex;
+    }
+  }
+  
+
+  .header-section.scrolled {
+    background-color: black;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+  }

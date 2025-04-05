@@ -1,0 +1,21 @@
+.red-variant {
+    background-color: #BD181A;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .red-variant:hover {
+    background-color: #000000;
+    color: white
+  }
+  
+  .black-variant {
+    background-color: #000000;
+    color: #ffffff;
+    transition: background-color 0.3s ease;
+  }
+  
+  .black-variant:hover {
+    background-color: #BD181A;
+  }
+  
